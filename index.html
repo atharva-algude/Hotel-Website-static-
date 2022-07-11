@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HOTEL GP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/SAI SHIVAR.jpg" type = "image/png">
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class = "site-name">
+                    <span>SAI-SHIVAR RESORT</span>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>चला जोडूया नातं मातीशी</h2>
+                <p>Our motto behind this AGRO-TOURISM Resort is to let people enjoy the traditional environment, take a break from the hectic life and connect themselves with the Nature.<br>				Situated in Anawale village, Tal. Dist. Satara, just 2kms away from Yawateshwar Pathar, our teams awaits for your Welcome.</p>
+               
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- side navbar -->
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up "  >  sign up </a></button>
+            <button class = "btn log-in">log in</button>
+            
+        </div>
+        <!-- end of side navbar -->
+
+        <!-- fullscreen modal -->
+        <div id = "modal"></div>
+        <!-- end of fullscreen modal -->
+
+        <!-- body content  -->
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>F O O D</h2>
+                        <p>Choose From A Variety Of Vegeterian and Non-Vegeterian Cuisines in a proper Household way.  </p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-smile-beam"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Leisure And Games</h2>
+                        <p>-Rain Dance <br>
+                           -Game Zone
+                           You name it, we have it. Yes, all the games you can play with your family and friends are now in one place. From Snakes and ladders to Rifle Shooting, the fun awaits for you!!!
+                        </p>
+                        
+                    </div>
+                </article>
+                <!-- end of single service -->
+                <!-- single service -->
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-building"></i>
+                        </span> 
+                    </div>
+                    <div class = "service-content">
+                        <h2>Multipurpose Hall With Lawn</h2>
+                        <p>Be it Birthdays or even the Wedding! <br> our Multipurpose Hall serves for every occassion</p>
+                        
+                    </div>
+                </article>
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-door-closed"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Wonderful Stays</h2>
+                        <p>Book the perfect rooms for you from a wide range according to your budget</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+                <!-- dormi-->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/dormi.png" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>DORMITORY</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Full ventilated large hall.
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Huge Accomodation
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Clean Toilet And Bathrooms.
+                            </li>
+                        </ul>
+                        <p>Group Stay? No Problem! We have a dormitory for you. Enjoy the nights with your large Groups or even the family.</p>
+                        <p class = "rate">
+                            <span>Rs.xyz.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- Deluxe -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/Deluxe.png" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>DELUXE ROOMS</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Air Conditioning And Balcony View
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Safe Deposit Box, Seating Area, Private Entrance and Mosquito Net
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bathroom and all facilities
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Large Television for Entertainment
+                            </li>
+                        </ul>
+                        <p>Enjoy the valley view with the Deluxe Rooms and all the facilities you need!</p>
+                        <p class = "rate">
+                            <span>RS.xyz.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+                <!-- budget -->
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/bud.png" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Budget Deluxe Room</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Balcony
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Separate Washroom
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                TV for Entertainment
+                            </li>
+                        </ul>
+                        <p>Tight on a budget? No worries. Enjoy almost all the facilities of a deluxe room at a very affordable price!!</p>
+                        <p class = "rate">
+                            <span>Rs.xyz.00 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+                <!-- end of single room -->
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Loved it</h3>
+                        <p>A perfect place to spend some quality time with your friends and the family.</p>
+                        <img src = "images/anurag.jpg" alt = "customer image">
+                        <span>Anurag, Pune</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Highly Recommended!</h3>
+                        <p>Had a function last year and the service is very good. And the food is awesome!</p>
+                        <img src = "images/ath.jpg" alt = "customer image">
+                        <span>Atharva , Satara</span>
+                    </div>
+                    <!-- end of single customer -->
+                    <!-- single customer -->
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Had a lot of fun!</h3>
+                        <p>Game zone, rain dance, food, everything is good! Must visit</p>
+                        <img src = "images/viraj.jpg" alt = "customer image">
+                        <span>Viraj,Mumbai</span>
+                    </div>
+                    <!-- end of single customer -->
+                </div>
+            </div>
+        </section>
+        <!-- end of body content -->
+        
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>ADDRESS </h2>
+                    <p>AT POST ANAWALE, TALUKA SATARA, DISTRICT SATARA.</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x "></a></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = "#">Blog</a>
+                    <a href = "#">Rooms</a>
+                    <a href = "#">Subscription</a>
+                    <a href = "#">Gift Card</a>
+                </div>
+
+                <div>
+                    <h2>More</h2>
+                    <a href = "#">Career</a>
+                    <a href = "#">About Us</a>
+                    <a href = "#">Contact Us</a>
+                    <a href = "#">Services</a>
+                </div>
+
+                <div>
+                    <h2>VISIT SOON</h2>
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="script.js"></script>
+    </body>
+</html>
